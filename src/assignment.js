@@ -59,6 +59,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     let conversionProcess = Math.trunc((arrayOfNumbers[i] * 1.8) + 32);
     convertedArray.push(conversionProcess)
   } 
+  // console.log(convertedArray)
   return convertedArray
     return arrayOfNumbers;
 }
